@@ -1,0 +1,9 @@
+# Managed by Puppet
+# defaults file for snapclient
+
+# start snapclient automatically?
+START_SNAPCLIENT=<%= $snapcast::client::start %>
+
+USER_OPTS="<%= $snapcast::client::user_opts %>"
+
+SNAPCLIENT_OPTS="<%= $snapcast::client::opts %>"

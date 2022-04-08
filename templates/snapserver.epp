@@ -1,0 +1,9 @@
+# Managed by Puppet
+# defaults file for snapserver
+
+# start snapserver automatically?
+START_SNAPSERVER=<%= $snapcast::server::start %>
+
+USER_OPTS="<%= $snapcast::server::user_opts %>"
+
+SNAPSERVER_OPTS="<%= $snapcast::server::opts %>"
